@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_error"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://www.instagram.com/rahma_valentina/"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:onClick="openWeb"
+        android:text="Open Website"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/editLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="masukkan nama kota"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:onClick="openLocation"
+        android:text="Open Location"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aku sebenarnya mau bilang..."
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:onClick="ShareText"
+        android:text="Share Text"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="Halaman Website SMKN 5"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="OPEN WEB SMKN 5 SURAKARTA"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white" />
+</LinearLayout>
